@@ -1,0 +1,30 @@
+.img {
+  height: 45vh;
+}
+#fixedBox {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  display: none ;
+  justify-content: center;
+  align-items: center;
+}
+#smallBox {
+  width: 50%;
+  height: 50vh;
+  background-image: url(../img-root/portfolio-1.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+#closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+i,.img-fluid {
+    cursor: pointer;
+}
